@@ -1,46 +1,52 @@
 .container {
-  width: 575px;
-  height: 825px;
+	width: 575px;
+	height: 825px;
 
-  background-color: #797978;
-  padding-left: 30px;
+	background-color: #d9e5b0;
+	padding-left: 30px;
 }
 #height,
 #weight {
-  width: 150px;
-  height: 25px;
-  margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	border-radius: 10px;
 }
 
 #weight-guide {
-  margin-left: 75px;
-  margin-top: 25px;
+	margin: 75px;
+	margin-top: 25px;
+	border: 1px, solid, rgb(34, 34, 34);
+	border-style: groove;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
 }
 
 #results {
-  font-size: 35px;
-  margin-left: 90px;
-  margin-top: 20px;
-  color: rgb(241, 241, 241);
+	font-size: 35px;
+	margin-left: 90px;
+	margin-top: 20px;
+	color: rgb(255, 0, 0);
 }
 
 button {
-  width: 150px;
-  height: 35px;
-  margin-left: 90px;
-  margin-top: 25px;
-  background-color: #fff;
-  padding: 1px 30px;
-  border-radius: 8px;
-  color: #212121;
-  text-decoration: none;
-  border: 2px solid #212121;
+	width: 150px;
+	height: 35px;
+	display: ;
+	margin-left: 90px;
+	margin-top: 25px;
+	background-color: #fff;
+	padding: 1px 30px;
+	border-radius: 8px;
+	color: #212121;
+	text-decoration: none;
+	border: 2px solid #212121;
 
-  font-size: 25px;
+	font-size: 15px;
 }
 
 h1 {
-  padding-left: 15px;
-  padding-top: 25px;
-  
+	padding-left: 15px;
+	padding-top: 25px;
 }
