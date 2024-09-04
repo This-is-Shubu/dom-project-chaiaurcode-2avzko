@@ -88,7 +88,7 @@ function endGame() {
 function newGame() {
     const newGameButton = document.querySelector('#newGame')
     newGameButton.addEventListener('click', function (e) {
-        userInput = ''
+        userInput.value = ''
         prevGuess = [];
         numGuess = 1;
         prevGuess.innerHTML = ''
