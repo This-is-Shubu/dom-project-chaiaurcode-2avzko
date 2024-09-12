@@ -9,4 +9,5 @@ function colorChange() {
     console.log(color)
     return color
 }
+
 document.body.style.backgroundColor = colorChange();
