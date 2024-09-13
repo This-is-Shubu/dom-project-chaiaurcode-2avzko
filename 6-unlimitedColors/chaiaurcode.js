@@ -10,4 +10,22 @@ function colorChange() {
     return color
 }
 
-document.body.style.backgroundColor = colorChange();
+let intervalId;
+const startColorChange = function () {
+    if (!intervalId) {
+        intervalId = setInterval(bgColorChange, 1000)
+    }
+    function bgColorChange() {
+        document.body.style.backgroundColor = colorChange()
+    }
+}
+
+const stopColorChange = function () {
+    clearInterval(intervalId)
+    intervalId = null;
+}
+// used intervalId = null to reset the value of intervalId
+
+document.querySelector('#start').addEventListener('click', startColorChange)
+
+document.querySelector('#stop').addEventListener('click', stopColorChange)
